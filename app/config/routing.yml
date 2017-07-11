@@ -1,0 +1,16 @@
+fioulmarket:
+    resource: "@FioulmarketBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+#REST
+fioul_rest:
+    type : rest
+    resource : "FioulmarketBundle\\Controller\\FioulRestController"
+    requirements:
+        _methods: POST
+    

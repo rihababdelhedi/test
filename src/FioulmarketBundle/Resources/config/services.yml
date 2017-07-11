@@ -1,0 +1,4 @@
+services:
+#    fioulmarket.example:
+#        class: FioulmarketBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
